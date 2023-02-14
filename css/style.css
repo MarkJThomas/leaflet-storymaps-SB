@@ -74,6 +74,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  style:"background-color: #DBF9FC";
 
   /* Three lines that center vertically */
   position: relative;
@@ -87,6 +88,7 @@ body {
   height: 200px;
   max-height: 200px;
   width: 100%;
+  style:"background-color: #DBF9FC";
 }
 
 .audio-container {
@@ -118,6 +120,7 @@ a.source:visited {
   text-align: left;
   font-size: 11pt;
   padding: 20px;
+  style:"background-color: #DBF9FC";
 }
 
 .in-focus {
