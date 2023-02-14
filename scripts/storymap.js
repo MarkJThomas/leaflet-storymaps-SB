@@ -334,7 +334,6 @@ $(window).on('load', function() {
                       fillOpacity: feature.properties.fillOpacity || 0.5,
                     }
                   }
-                }                    
                 }).addTo(map);
               });
             } else {
@@ -368,7 +367,7 @@ $(window).on('load', function() {
                     color: feature.properties.color || props.color || '#cccccc',
                     fillOpacity: feature.properties.fillOpacity || props.fillOpacity || 0.5,
                   }
-                    }
+                }
               }).addTo(map);
             });
           }
