@@ -47,6 +47,7 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
+  background-color: white;
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -54,7 +55,6 @@ body {
   visibility: hidden;
   font-weight: bold;
   text-align: center;
-  color:white;
 }
 
 .chapter-container {
@@ -105,10 +105,10 @@ body {
 .source {
   font-size: 9pt;
   font-style: italic;
-  style:"background-color: #DBF9FC";
+  color: gray;
 }
 a.source:visited {
-  style:"background-color: #DBF9FC";
+  color: grey;
 }
 
 .description {
@@ -116,7 +116,6 @@ a.source:visited {
   text-align: left;
   font-size: 11pt;
   padding: 20px;
-  style:"background-color: #DBF9FC";
 }
 
 .in-focus {
@@ -161,13 +160,13 @@ a.source:visited {
 #header {
   padding: 5px 0;
   text-align: center;
-  style="color:white";
+  color: #333;
 }
 
 /* Storymap title & subtitle */
 h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
