@@ -3,7 +3,6 @@ body {
   margin: 0px;
   font-family: "Helvetica", sans-serif;
   overflow: hidden;
-  style:"background-color: #DBF9FC";
 }
 
 #map {
@@ -48,7 +47,6 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: #DBF9FC;
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -64,7 +62,6 @@ body {
   margin: 50px 0 0 0;
   padding: 20px 0 0 0;
   text-align: center;
-  style:"background-color#DBF9FC";
 }
 
 .chapter-container img {
@@ -74,7 +71,6 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  style:"background-color: #DBF9FC";
 
   /* Three lines that center vertically */
   position: relative;
@@ -88,7 +84,6 @@ body {
   height: 200px;
   max-height: 200px;
   width: 100%;
-  style:"background-color: #DBF9FC";
 }
 
 .audio-container {
