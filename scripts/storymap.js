@@ -333,7 +333,8 @@ $(window).on('load', function() {
                       color: feature.properties.color || '#cccccc',
                       fillOpacity: feature.properties.fillOpacity || 0.5,
                     }
-                    }
+                  }
+                }                    
                 }).addTo(map);
               });
             } else {
