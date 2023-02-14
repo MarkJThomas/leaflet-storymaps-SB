@@ -333,9 +333,6 @@ $(window).on('load', function() {
                       color: feature.properties.color || '#cccccc',
                       fillOpacity: feature.properties.fillOpacity || 0.5,
                     }
-                    onEachFeature: function (feature, layer) {
-                      layer.bindPopup("ID: " + feature.properties.id + "<br>Name: ");
-                      layer.bindTooltip(feature.properties.name, {permanent: true, direction: 'right'}).openTooltip();
                     }
                 }).addTo(map);
               });
@@ -370,10 +367,6 @@ $(window).on('load', function() {
                     color: feature.properties.color || props.color || '#cccccc',
                     fillOpacity: feature.properties.fillOpacity || props.fillOpacity || 0.5,
                   }
-                }
-                onEachFeature: function (feature, layer) {
-                      layer.bindPopup("ID: " + feature.properties.id + "<br>Name: ");
-                      layer.bindTooltip(feature.properties.name, {permanent: true, direction: 'right'}).openTooltip();
                     }
               }).addTo(map);
             });
